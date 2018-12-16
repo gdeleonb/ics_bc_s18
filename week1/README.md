@@ -40,22 +40,23 @@ Complete Lab 1
 - Requirements
   - When run, it must print out the number of hours in a year.
 - Advice
-  - Don't forget to account for leap years!
+  - This should be an integer.
+  - Up to you how you account for leap years!
 
 #### minutes\_in\_decade.rb
 
 - Requirements
   - When run, it must print out the number of minutes in a decade.
 - Advice
-  - As in the previous one, leap years should be accounted for.
+  - For this one, make sure to account for the leap years!
 
 #### age\_in\_seconds.rb
 
 - Requirements
-  - When run, it must print out your age in seconds
+  - In order to have a standardized answer we can check against, please instead calculate Berkeley's age in seconds, and do it from the time this will be due (Friday the 21st).
+  - For fun, you can check your as well, but we'll be grading based on the Berkeley one.
 - Advice
-  - Remember to account for leap years, and days since your last birthday.
-  - If you really wanted to, you could go even further, but anything beyond days since changes too quickly and not everyone knows the hour they were born so we won’t ask for it.
+  - Remember to account for leap years, and for months/days since the birthday last passed!
 
 #### author\_age.rb
 
@@ -63,7 +64,7 @@ Complete Lab 1
   - When run, it must print out the author's age in years
 - Advice
   - For this one, make sure to remember that integer division rounds down in Ruby, so to get a more accurate number add a decimal so you use float division instead
-  - Also leap years. Though for this one we don’t fully know how many there are, so use 365.25 days per year to get it as close as possible!
+  - Also leap years. While we don't know exactly how many there are, we can use 365.25 days per year to get it as close as possible!
 
 ### Chapter 5:
 
@@ -71,7 +72,7 @@ Complete Lab 1
 
 - Requirements
   - When run, it should:
-    - Ask for your first, middle, and last name (one by one)
+    - Ask for your first, middle, and last name (one by one!)
     - Then greet you using the full name provided
 - Advice
   - Main thing to keep in mind for this one is to make sure to use `gets.chomp` instead of just `gets`. That will make sure that you remove the newline character from each part of the name so you can string them together into the full name.
