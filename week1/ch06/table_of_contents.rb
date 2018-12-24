@@ -1,4 +1,4 @@
-l_width = 100
+l_width = 70
 puts 'Table of Contents'.center(l_width)
 puts ''
 puts 'Chapter 1: Getting Started'.ljust(l_width/2) + 'page  1'.rjust(l_width/2)
