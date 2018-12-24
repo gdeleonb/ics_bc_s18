@@ -1,14 +1,14 @@
 # Week 1 Instructions
 
-June 11 - 15
+December 24 - 28
 
 ## Submission Link
 
-When finished with the week's assignment, please push your changes to GitHub and fill out the following <a href="https://goo.gl/forms/lyZ6TKDWzj6R1j7Y2">form</a>.
+When finished with the week's assignment, please push your changes to GitHub and fill out the following <a href="https://goo.gl/forms/g5KfxrMtzOXYusmG3">form</a>.
 
 ## Reading Assignment
 
-Read the following chapters from Chris Pine's Learn to Program:
+ Read the following chapters from Chris Pine's Learn to Program:
 
 - Introduction
   - pages 11-15
@@ -22,6 +22,10 @@ Read the following chapters from Chris Pine's Learn to Program:
   - pages 31-33
 - Chapter 5: Mixing it up
   - pages 34-39
+- Chapter 6: More About Methods
+  - pages 40-48
+
+Reading assignment is long in chapter count, but only chapters 2, 5, and 6 have assignments.
 
 ## Lab Assignment
 
@@ -85,3 +89,30 @@ Complete Lab 1
     - Add 1 to it, and suggest this as a better favorite number (the more tactful the better)
 - Advice
   - `gets.chomp` returns a string, so don't forget to use `.to_i` and `.to_s` as needed!
+
+### Chapter 6:
+
+#### angry\_boss.rb
+
+- Requirements
+  - Angry boss. Write an angry boss program that rudely asks what you want. Whatever you answer, the angry boss should yell it back to you and then fire you. For example, if you type in I want a raise, it should yell back like this:
+	  - `WHADDAYA MEAN "I WANT A RAISE"?!? YOU'RE FIRED!!`
+- Clarifications/Advice
+  - Make sure they shout everything, including your request.
+
+#### table\_of\_contents.rb
+
+- Requirements
+  - Here’s something for you to do in order to play around more with center, ljust, and rjust: write a program that will display a table of contents so that it looks like this:
+  - While you're free to make side programs for your favorite books, the submission must be for Learn to Program, and go from chapter 1 to chapter 9 (the content we're covering in this course).
+- Clarifications/Advice
+  - Make sure to align it properly. A good tip is to make sure that each of the lines is the same length, which can be ensured by making sure that the arguments to `.center`, `.ljust`, and `.rjust` add up to the same total
+  - You can see an example for what this should roughly look like below:
+
+```
+			     Table of Contents
+
+Chapter 1: Getting Started				page  1
+Chapter 2: Numbers				    	page  9
+Chapter 3: Letters				    	page 13
+```
